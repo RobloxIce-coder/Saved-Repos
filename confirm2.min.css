@@ -1,0 +1,68 @@
+#moon {
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px yellow;
+  animation: bulan-putar 3s ease   paused;
+  transition: all 0.3s ease;
+}
+#star1 {position: absolute;top: 31px;left: 75px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+
+#star2 {position: absolute;top: 40px;left: 85px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star3 {position: absolute;top: 40px;left: 65px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star4 {position: absolute;top: 50px;left: 60px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star5 {position: absolute;top: 50px;left: 90px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star6 {position: absolute;top: 50px;left: 105px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star7 {position: absolute;top: 40px;left: 105px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star8 {position: absolute;top: 30px;left: 105px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star9 {position: absolute;top: 40px;left: 117px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star10 {position: absolute;top: 50px;left: 130px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star11 {position: absolute;top: 40px;left: 130px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star12 {position: absolute;top: 30px;left: 130px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star13 {position: absolute;top: 50px;left: 145px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star14 {position: absolute;top: 40px;left: 145px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star15 {position: absolute;top: 30px;left: 145px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star16 {position: absolute;top: 50px;left: 160px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star17 {position: absolute;top: 40px;left: 160px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star18 {position: absolute;top: 30px;left: 160px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star19 {position: absolute;top: 40px;left: 170px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star20 {position: absolute;top: 50px;left: 180px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star21 {position: absolute;top: 40px;left: 180px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+#star22 {position: absolute;top: 30px;left: 180px;border-radius: 50%;width: 3px;height: 3px;background-color: white;
+}
+
+@keyframes bulan-putar {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
