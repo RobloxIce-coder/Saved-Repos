@@ -2,6 +2,7 @@
   Please read with carefully...
   This is default setup rust cli application for Linux Operating System in Google Colab.
   Google Colab is using Ubuntu for their distribution.
+  Please copy this text and put them into your colab's cell, and run it :D!
 */
 
 %%shell
