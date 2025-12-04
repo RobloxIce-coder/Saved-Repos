@@ -1,4 +1,4 @@
-public class ContohVala {
+public class ContohProgramVala {
    public static int main(string[] args) {
       print("\033[1mHalo Vala :D!\033[0m\n\n");
       print("\033[92m<!> Contoh program list buah-buahan: <!>\033[0m\n\n");
