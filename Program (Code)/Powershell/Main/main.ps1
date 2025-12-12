@@ -1,3 +1,5 @@
+# Kunjungi situs: https://www.compilebytes.com/share/8Akjy5vynk :)
+
 $name = 'Daniar';
 $numbers = @(2, 4, 6, 8, 10)
 Write-Host "Halo, $name!" -ForeGround Magenta
