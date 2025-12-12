@@ -1,0 +1,81 @@
+# Copyright © 2025, Ahmad Daniar - All Rights Reserved.
+# Ini adalah file konfigurasi dan instalasi dependensi untuk kivy di Google Colab
+# Di salin dari YouTube Channel: "https://www.youtube.com/pythonic_coder"
+# Salin ini untuk ditempelkan/dipaste di cell Google Colab, dan jalankan satu persatu cellnya :)
+
+[1] Sel ke-satu:
+!pip install buildozer
+
+[2] Sel ke-dua:
+!pip install cython==0.29.21
+
+[3] Sel ke-tiga:
+sudo apt-get update -y
+
+[4] Sel ke-empat:
+!sudo apt-get install -y \
+ python3-pip \
+ build-essential \
+ git \
+ python3 \
+ python3-dev \
+ ffmpeg \
+ libsdl2-dev \
+ libsdl2-image-dev \
+ libsdl2-mixer-dev \
+ libsdl2-ttf-dev \
+ libportmidi-dev \
+ libswscale-dev \
+ libavformat-dev \
+ libavcodec-dev \
+ zlib1g-dev
+
+[5] Sel ke-lima:
+!sudo apt-get install -y \
+ libgstreamer1.0 \
+ gstreamer1.0-plugins-base \
+ gstreamer1.0-plugins-good
+
+[6] Sel ke-enam:
+!sudo apt-get install -y \
+ build-essential \
+ libsqlite3-dev \
+ sqlite3 \
+ bzip2 \
+ libbz2-dev \
+ zlib1g-dev \
+ libssl-dev \
+ openssl \
+ libgdbm-dev \
+ libgdbm-compat-dev \
+ liblzma-dev \
+ libreadline-dev \
+ libncurses-dev \
+ libffi-dev \
+ uuid-dev
+
+[7] Sel ke-tujuh:
+sudo apt-get update -y
+
+[8] Sel ke-delapan:
+apt-get install libffi-dev
+
+[9] Sel ke-sembilan:
+apt-get install autoconf
+
+[10] Sel ke-sepuluh:
+apt-get install libtool
+
+[11] Sel ke-sebelas:
+buildozer init
+
+[12] Sel ke-duabelas:
+buildozer -v android debug
+
+[13] Sel ke-tigabelas (sel terakhir):
+buildozer android clean
+
+[*] Lalu anda bisa melihat di /root/bin atau cari direktori bin,
+[*] Kemudian download file apknya.
+[*] Terimakasih🙏...
+[*] Salam developer☕
